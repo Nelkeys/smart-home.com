@@ -1,0 +1,117 @@
+body{
+    background: #e2e2e2;
+    color: #111 ;
+    margin: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0;
+    transition: 1.5s ease-in-out;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+h3{
+    color: #000;
+}
+.name{
+    transition: 2.5s ease-in-out;
+}
+.active-room{
+    margin-top: 1rem;
+}
+.rooom-det-item i{
+    font-size: 30px;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0px 0px 5px #222;
+}
+.rooms-det{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+.rooom-det-item{
+    margin: .8rem;
+}
+.rooom-det-item p{
+    width: 5.5rem;
+    font-size: 13px;
+}
+
+.head-and-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.active-room-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #222;
+}
+.switch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.set-01,
+.set-02,
+.set-03{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.set-03{
+    margin-bottom: 6rem;
+}
+.set1{
+    background: #0d0668;
+    color: #eee;
+    border-radius:  1rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 10px #222;
+}
+.set i{
+    font-size: 35px;
+}
+#white-back{
+    background: #fff;
+    color: #222;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-self: center;
+    width: 100%;
+    background: #d8d8d8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer a{
+    color: #222;
+}
+#plus{
+    background: #0d0668;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #eee;
+}

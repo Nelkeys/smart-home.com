@@ -1,0 +1,70 @@
+*{
+    background: #0e1c6d;
+}
+body{
+    color: #eee;
+    margin: 0;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: 0;
+    transition: 1.5s ease-in-out;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+   margin-top: 4rem;
+}
+header h2 a{
+    color: #eee;
+    text-decoration: none;
+}
+.logo{
+    transition: 2.5s ease-in-out;
+}
+.container{
+    margin-top: 15rem;
+    line-height: 1.5rem;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-details a{
+    padding: .5rem;
+    background: #eee;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #0e1c6d;
+    text-decoration: none;
+    border: 2px solid #eee;
+    border-radius: 2rem;
+    margin-top: .8rem;
+}
+#e-mail,
+#password{
+    background: #eeeeee2f;
+    padding: .8rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin: .5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #eee;
+    font-size: 15px;
+    color: #eee;
+}
+.login-alt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.login-alt a{
+    color: #eee;
+}
